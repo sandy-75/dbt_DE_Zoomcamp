@@ -39,9 +39,14 @@ FROM tripdata
 WHERE rn = 1
 
 
+--Is this pull working?
 -- dbt build --m <model.sql> --var 'is_test_run: false'
 --{% if var('is_test_run', default=true) %}
 
 --  LIMIT 100
 
+<<<<<<< HEAD
 --{% endif %}
+=======
+--{% endif %}
+>>>>>>> cf5ff2c71c6c7ecb5c57f3f49103201fba158131
