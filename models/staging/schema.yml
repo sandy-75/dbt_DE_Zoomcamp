@@ -8,6 +8,7 @@ sources:
       tables:
         - name: green_tripdata_partitioned
         - name: yellow_tripdata_partitioned
+        - name: external_fhv_tripdata_2019_non_partitioned
 
 models:
     - name: staging_green_tripdata
