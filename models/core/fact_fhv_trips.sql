@@ -17,6 +17,9 @@ select
     fhv_data.PULocationID,
     fhv_data.DOLocationID,
     fhv_data.SR_Flag,
+
 from fhv_data
 inner join dim_zones as pickup_zone
 on fhv_data.PULocationID = pickup_zone.locationid
+inner join dim_zones as dropoff_zone
+on fhv_data.DOLocationID = dropoff_zone.locationid
